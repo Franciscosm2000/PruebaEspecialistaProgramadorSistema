@@ -1,0 +1,13 @@
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Datos\Debug\net5.0\Datos.deps.json
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Datos\Debug\net5.0\Datos.runtimeconfig.json
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Datos\Debug\net5.0\Datos.runtimeconfig.dev.json
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Datos\Debug\net5.0\Datos.dll
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Datos\Debug\net5.0\ref\Datos.dll
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\Datos.AssemblyInfo.cs
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\Datos.csproj.CopyComplete
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\Datos.dll
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\ref\Datos.dll
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\Datos.genruntimeconfig.cache
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Datos\Debug\net5.0\Datos.csproj.AssemblyReference.cache

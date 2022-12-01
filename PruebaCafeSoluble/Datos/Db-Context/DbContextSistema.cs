@@ -15,6 +15,7 @@ namespace Datos.Db_Context
         public DbSet<ProductoModel> producto { get; set; }
         #endregion
 
+
         public DbContextSistema(DbContextOptions<DbContextSistema> options) : base(options)
         {
 
@@ -28,6 +29,5 @@ namespace Datos.Db_Context
             modelBuilder.ApplyConfiguration(new ProductoMap());
             #endregion
         }
-
-    }
+}
 }
