@@ -75,6 +75,7 @@
         <member name="M:Web.Controllers.UsuariosController.Login(Web.Models.Seguridad.LoginViewModel)">
             <summary>
             METODO QUE PERMITE INICIAR SECION Y GENERA UN TOKEN POR TIEMPO LIMITADO PARA REALIZAR PETICIONES A LA API
+            CREDENCIALES PARA HACER PRUEBA, Usuario: admin y Contraseña: 123
             </summary>
             <param name="model"></param>
             <returns></returns>
