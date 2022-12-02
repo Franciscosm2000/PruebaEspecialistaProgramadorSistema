@@ -15,7 +15,7 @@ namespace Web.Models.Producto
         [Required(ErrorMessage = "El {0} es requerido.")]
         public int Stock { get; set; }
         [Required(ErrorMessage = "El {0} es requerido.")]
-        public float Precio { get; set; }
+        public double Precio { get; set; }
         public string Descripcion { get; set; }
         [Required(ErrorMessage = "El {0} es requerido.")]
         public string UsuarioRegistro { get; set; }
