@@ -16,6 +16,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Swashbuckle.AspNetCore.Swagger;
+using System.Reflection;
+using System.IO;
 
 namespace Web
 {
@@ -63,9 +66,50 @@ namespace Web
             #endregion 
 
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Web", Version = "v1" });
+                //c.SwaggerDoc("v1", new OpenApiInfo { Title = "Web", Version = "v1" });
+
+                c.SwaggerDoc("v1",new OpenApiInfo { 
+                    Title ="API PRUEBA",
+                    Version= "v1",
+                    Description = "Esta una documentación, con el fin de ayudar a los desarrolladores.",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Francisco Sandoval",
+                        Email = "franciscosandovalm2@gmail.com"
+                    }
+                });
+
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Porfavor valide el TOKEN",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.Http,
+                    BearerFormat = "JWT",
+                    Scheme = "Bearer"
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type=ReferenceType.SecurityScheme,
+                                Id="Bearer"
+                            }
+                        },
+                        new string[]{}
+                    }
+                });
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory,xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
 
         }
@@ -84,6 +128,7 @@ namespace Web
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthorization();
+            app.UseAuthentication();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

@@ -6,7 +6,6 @@ D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\l
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Web\bin\Debug\net5.0\Web.runtimeconfig.dev.json
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Web\bin\Debug\net5.0\Web.dll
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\b\Web\bin\Debug\net5.0\ref\Web.dll
-D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Web\net5.0\Web.csproj.AssemblyReference.cache
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Web\net5.0\Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Web\net5.0\Web.AssemblyInfoInputs.cache
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\.vs\PruebaCafeSoluble\v16\lut\0\i\Web\net5.0\Web.AssemblyInfo.cs

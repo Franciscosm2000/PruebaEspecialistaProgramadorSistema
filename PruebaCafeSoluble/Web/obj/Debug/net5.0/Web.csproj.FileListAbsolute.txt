@@ -167,3 +167,4 @@ D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\Web\obj\Debug\net5.0\ref\We
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\Web\obj\Debug\net5.0\Web.pdb
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\Web\obj\Debug\net5.0\Web.genruntimeconfig.cache
 D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\PERSONAL\SistematicoCafeSoluble\PruebaCafeSoluble\Web\bin\Debug\net5.0\Web.xml

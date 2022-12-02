@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web</name>
+    </assembly>
+    <members>
+        <member name="T:Web.Controllers.ProductosController">
+            <summary>
+            CONTROLADOR DE PRODUCTOS
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.ProductosController.#ctor(Datos.Db_Context.DbContextSistema)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Web.Controllers.ProductosController.Crear(Web.Models.Producto.CrearViewModel)">
+            <summary>
+            CREA UN NUEVO PRODUCTO BASADO EN EL MODELO CREARVIEWMODEL
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.ProductosController.Actualizar(Web.Models.Producto.ActualizarViewModel)">
+            <summary>
+            ACTUALIZA UN REGISTRO EXISTENTE EN LA BD
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.ProductosController.Listar">
+            <summary>
+            LISTA O MUESTRA TODOS LOS REGISTROS EN LA BD, CON SU RESPECTIVO ESTADO 
+            PUEDE SER ACTIVO E INACTIVO
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.ProductosController.Desactivar(System.Int32,System.String)">
+            <summary>
+            ESTE METODO REALIZA UN ELIMINADO LOGICO, LA IDEA ES QUE SOLO EL ADMINISTRADOR TENGA PERMISO
+            DE VER LOS ITEMS CON ESTADO DESACTIVADO
+            </summary>
+            <param name="id"></param>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.ProductosController.Activar(System.Int32,System.String)">
+            <summary>
+            PERMITE ACTIVAR O RESTRAURAR UN ELEMENTO ANTERIORMENTE BORRADO (BORRADO LOGICO)
+            </summary>
+            <param name="id"></param>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Web.Controllers.UsuariosController">
+            <summary>
+            Controlador usuario
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.UsuariosController.#ctor(Datos.Db_Context.DbContextSistema,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="config"></param>
+        </member>
+        <member name="M:Web.Controllers.UsuariosController.Crear(Web.Models.Seguridad.CrearUsuarioViewModel)">
+            <summary>
+            METODO PARA CREAR UN USUARIO
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Controllers.UsuariosController.Login(Web.Models.Seguridad.LoginViewModel)">
+            <summary>
+            METODO QUE PERMITE INICIAR SECION Y GENERA UN TOKEN POR TIEMPO LIMITADO PARA REALIZAR PETICIONES A LA API
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
